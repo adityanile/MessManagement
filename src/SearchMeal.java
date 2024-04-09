@@ -39,6 +39,7 @@ public class SearchMeal extends javax.swing.JFrame {
         jCheckBox4 = new javax.swing.JCheckBox();
         jButton1 = new javax.swing.JButton();
 
+        setLocationRelativeTo(null);
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N

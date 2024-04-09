@@ -39,6 +39,7 @@ public class OrgRegister extends javax.swing.JFrame {
         jTextField4 = new javax.swing.JTextField();
         jLabel2 = new javax.swing.JLabel();
 
+        setLocationRelativeTo(null);
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
