@@ -222,8 +222,8 @@ public class OrganiserMainPage extends javax.swing.JFrame {
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {
         String id = JOptionPane.showInputDialog(this, "Enter Meal ID");
 
-        Meal meal = new Meal();
-        List<Review> rev = meal.GetMealReviews(Integer.parseInt(id));
+        Review review = new Review();
+        List<Review> rev = review.GetMealReviews(Integer.parseInt(id));
 
         System.out.println(rev.size());
 

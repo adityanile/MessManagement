@@ -176,8 +176,8 @@ public class RatePage extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(this,"Enter Rating");
         }
         else{
-            Meal meal = new Meal();
-            meal.RateAMeal(meal_id,user_id,Integer.parseInt(rating),jTextArea1.getText());
+            Review rev = new Review();
+            rev.RateAMeal(meal_id,user_id,Integer.parseInt(rating),jTextArea1.getText());
 
             JOptionPane.showMessageDialog(this,"Rating Meal Successfull");
             this.dispose();

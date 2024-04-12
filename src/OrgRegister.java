@@ -194,9 +194,6 @@ public class OrgRegister extends javax.swing.JFrame {
         // TODO add your handling code here:
     }
 
-    /**
-     * @param args the command line arguments
-     */
     public void Start() {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">

@@ -19,6 +19,4 @@ public class Connect {
             System.out.println(ex);
         }
     }
-
-
 }

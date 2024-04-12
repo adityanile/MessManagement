@@ -4,7 +4,6 @@
  * @author Aditya Nile
  */
 public class Initial extends javax.swing.JFrame {
-
     /**
      * Creates new form Initial
      */

@@ -17,7 +17,6 @@ public class Organisation {
     public int GetOrgId(){
         return org_id;
     }
-
     public void DeleteAccount(int org_id){
 
         try{

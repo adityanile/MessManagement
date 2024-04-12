@@ -1,12 +1,9 @@
-import oracle.jdbc.proxy.annotation.Pre;
-
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
 // This Class will have methods for Login, Register, Change Credentails
-
 public class Authentication {
 
     // This is to Verify User Login
